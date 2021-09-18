@@ -1,0 +1,14 @@
+
+.click1, .clicktwo{
+    font-size: 28px;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+.click1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.clicktwo {
+    background-color: yellow;
+    color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+}

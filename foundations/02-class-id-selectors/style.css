@@ -1,0 +1,23 @@
+.salmontheme {
+    background-color: lightcoral;
+    font-family: Verdana, sans-serif;
+}
+
+.bigtext {
+    font-size: 18px;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#special-electric {
+    color: blue;
+    font-size: 24px;
+    background-color: white;
+}
+
+#special-hulk {
+    background-color: rgb(153, 255, 0);
+    font-weight: 700;
+}
