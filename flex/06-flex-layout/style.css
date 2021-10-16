@@ -5,17 +5,61 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer, .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+ul{
+  /*!!! turn the list into a flex to have it collapse */
+  display: flex;
+  list-style-type: none; 
+  
+  /*!!! impt: remember to remove default formatting */ 
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+a {
+
+  /*this removes link formatting */
+ color: rgb(51, 51, 51);
+ text-decoration: none;
 }
 
 img {
   width: 600px;
+  padding: 10px;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
   background: #eee;
+  padding: 10px;
+  
 }
 
 input {
